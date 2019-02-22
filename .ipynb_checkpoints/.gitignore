@@ -3,3 +3,6 @@
 /test-checkpoint.png
 *.csv
 /AnalysisOfPath-checkpoint.ipynb
+/01_DataPreparation-checkpoint.ipynb
+/02_PathCreation-checkpoint.ipynb
+/03_Analysis-checkpoint.ipynb

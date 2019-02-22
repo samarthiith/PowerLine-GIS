@@ -33,30 +33,17 @@ The downloaded data should be stored in the subfolder: 01_Data500 (update if cha
 | Highways |  Extract data, rasterize, assign values | [Geofabrik](https://download.geofabrik.de/)| [ODbL](https://opendatacommons.org/licenses/odbl/index.html)        |
 | Electricity Grid | Extract data, rasterize, assign values | [Geofabrik](https://download.geofabrik.de/)| [ODbL](https://opendatacommons.org/licenses/odbl/index.html)        |
 
-## Framework
-![Dimension for analsis](GGEF_Framework_v4.jpg)
-
 ## Usage
 
-- [01_DataPreparation](https://github.com/samarthiith/PowerLine-GIS/blob/master/01_DataPreparation.ipynb)
+- [01_DataPreparation](https://github.com/samarthiith/GIS-EU/blob/master/01_DataPreparation.ipynb)
 
-	Jupyter notebook for data preparation and visualization. Includes the following:
-	- Reading the raster and converting them into array
-	- [Jenks Natural breaks](https://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization) of some of the rasters
-	- Combining the rasters to form the dimensions according to the Framework
+	Jupyter notebook for data preparation and visualization. 
     
-- [02_PathCreation](https://github.com/samarthiith/PowerLine-GIS/blob/master/02_PathCreation.ipynb)
-	- Jupyter notebook for creating the paths based of different weighted combinations of the dimensions.
-	- Sweep over all combination of weights, the path indexes are saved as npy array 
+- [02_PathCreation](https://github.com/samarthiith/GIS-EU/blob/master/02_PathCreation.ipynb)
 
-- [03_Analysis](https://github.com/samarthiith/PowerLine-GIS/blob/master/03_Analysis.ipynb)
-	- The evaluation criterions
-		- Overlap of path with the actual planned path
-		- Length of path
-		- Length of path through protected zone
-		- Slope classification
-	- Evaluations of all the paths created created over the criterions
+	Jupyter notebook for creating the paths based of different weighted combinations of the dimensions. 
 
+- [03_Analysis](https://github.com/samarthiith/GIS-EU/blob/master/03_Analysis.ipynb)
 
 # License
 This repository is published under [MIT License](https://github.com/samarthiith/GIS-EU/blob/master/LICENSE)
