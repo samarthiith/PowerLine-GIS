@@ -50,7 +50,7 @@ The downloaded data should be stored in the subfolder: 01_Data500 (update if cha
 	- Sweep over all combination of weights, the path indexes are saved as npy array 
 
 - [03_Analysis](https://github.com/samarthiith/PowerLine-GIS/blob/master/03_Analysis.ipynb)
-	- The evaluation criterions
+	- The evaluation criterions:
 		- Overlap of path with the actual planned path
 		- Length of path
 		- Length of path through protected zone
