@@ -12,7 +12,7 @@ click-plugins==1.0.4
 cligj==0.5.0
 cloudpickle==0.6.1
 colorama==0.4.0
-cryptography==2.3.1
+cryptography==3.2
 cycler==0.10.0
 dask==0.19.4
 decorator==4.3.0
